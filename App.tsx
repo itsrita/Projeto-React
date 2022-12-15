@@ -4,7 +4,7 @@ import { Image, StyleSheet, Text, View, Linking } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Image source={require('./assets/wd.jpg')} style={styles.profile} />
+      <Image source={require('./assets/MR.jpg')} style={styles.profile} />
       <Text style={styles.name}>
         Wendel Pedro -
         <Text style={styles.age}> 20 </Text>
@@ -19,7 +19,7 @@ export default function App() {
         • Bancos de dados: SQL, MYSQL, PostgreSQL, MongoDB.
       </Text>
       <View style={styles.images}>
-        <Text onPress={() => Linking.openURL('https://github.com/WendelF03')}>
+        <Text onPress={() => Linking.openURL('https://github.com/itsrita')}>
           <Image source={require('./assets/github.png')} style={styles.icons} ></Image>
         </Text>
       </View>
